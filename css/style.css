@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clearfix:after{
+	clear:both;
+	content:'';
+	display:block;
+	height: inherit;
+	line-height: inherit;
+	visibility: hidden;
+	overflow: hidden;
+
+}
+
+/*******************************************
+				  JIBUB
+*******************************************/
+
+header{
+	background-color: orange;
+	height:100px;
+}
+
+footer{
+	background-image: url("../img/img/equipment-731132.jpg");
+	background-size: cover;
+	height:500px;
+}
+
+nav{
+	background-color: red;
+	height:100%;
+	width: 70%;
+	float: right;
+}
+nav ul{
+	height:100%;
+}
+
+nav li{
+	display: inline-block;
+	margin: auto;
+	height: 100%;
+	width: 10%;
+}
+
+nav a{
+	background-color: green;
+}
+
+
+section{
+	background-color: blue;
+	height:100vh;
+}
+
+section p{
+	background-color: yellow;
+	margin-left: 20%;
+	width: 60%;
+}
+
+
+
+#site{
+	background-color: cyan;
+}
+
+#landing-page{
+	background-color: yellowgreen;
+}
+
+section:first-child{
+	background-image: url("../img/img/equipment-768534.jpg");
+	background-size: cover;
+	background-blend-mode: s;
+}
+section:nth-child(2) div{
+	height:33%;
+	background-color: violet;
+}
+
+section div{
+	height:50%;
+
+}
+#header__icon{
+	display: none;
+	height:100%;
+	width:60px;
+}
+
+#rdw__icon {
+	display: block;
+	height:60px;
+	width:60px;
+}
+
+#rdw__icon img{
+	display: inline-block;
+	height:100%;
+	width:100%;
+}
