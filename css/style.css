@@ -136,17 +136,17 @@ table {
 }
 
 
-
-
-
 /*******************************************
 				  JIBUB
 *******************************************/
+
+
 #site{
 	font-family: 'Raleway-Regular';
 	width: 100%;
 	max-width: 1800px;
 	margin:auto;
+	color: white;
 
 }
 
@@ -157,6 +157,10 @@ header{
 	width: 100%;
 	line-height:80px;
 	z-index: 10;
+	background-color: rgba(255,255,255,0.2);
+	filter: blur(1);
+	box-shadow: 0px 2px 2px 2px rgba(22,22,22,0.5);
+
 }
 
 #landing-page{
@@ -165,10 +169,24 @@ header{
 }
 
 footer{
-	background-image: url("../img/img/equipment-731132.jpg");
-	background-size: cover;
-	height:500px;
+	background-color: #000;
+	height: 0px;
 }
+
+input{
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+	-ms-border-radius:1px;
+	-o-border-radius:1px;
+	border-radius:1px;
+}
+
+
+
+/*******************************************
+				 NAV
+*******************************************/
+
 
 
 nav{
@@ -196,94 +214,9 @@ nav li a{
 	color: #777;
 }
 
-section{
-	background-color: rgba(222,222,222,0.1);
-	height:100vh;
-	display: block;
-	position: relative;
-}
-
-section:before{
-	content: '';
-	background-size: cover;
-	display: block;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	position:absolute ;
-}
-
-section:first-child:before{
-	-webkit-filter:contrast(1) sepia(35%) saturate(8) grayscale(55%) hue-rotate(338deg) Brightness(0.4) invert(0) alpha(opacity=8);
-	background-image: url("../img/img/equipment-768534.jpg");
-}
-
-section:first-child div{
-	z-index: 2;
-	float: left;
-	height:100%;
-	display: inline-block;
-}
-
-section:first-child div:first-child{
-	width: 68%;
-
-}
-
-section:first-child div:first-child p{
-	margin-left: 15.5%;
-	color: white;
-
-}
-
-section:first-child div:first-child p:first-child{
-	font-size: 3.5em;
-	margin-top: 14.8%;
-	text-shadow:0px 4px 8px #0f0f0f;
-	width:75%;
-
-}
-section:first-child div:first-child p:nth-child(2){
-	font-size: 1.5em;
-	width:70%;
-
-}
-section:first-child div:first-child p:nth-child(3){
-	font-size: 1.5em;
-}
-section:first-child div:first-child p:nth-child(4){
-	font-size: 2.5em;
-}
-
-section:first-child div:first-child p:nth-child(5){
-}
-
-section:first-child div:nth-child(2){
-	margin: 0%;
-	width: 32%;
-}
-section:first-child div:nth-child(2) img{
-	height:69%;
-	margin-top: 28%;
-
-}
-section:first-child div:nth-child(1) form{
-	margin-left: 15.5%;
 
 
-}
 
-section:nth-child(2) div{
-	height:33%;
-	background-color: violet;
-}
-
-section div{
-	height:50%;
-
-}
 
 #header__icon {
 	display: block;
@@ -322,4 +255,408 @@ section div{
 	-webkit-box-shadow:0 10px 0 2px #111, 0 16px 0 2px #111, 0 22px 0 2px #111;
 	-moz-box-shadow:0 10px 0 2px #111, 0 16px 0 2px #111, 0 22px 0 2px #111;
 	-o-box-shadow:0 10px 0 2px #111, 0 16px 0 2px #111, 0 22px 0 2px #111;
+}
+
+
+
+/*******************************************
+				  SECTIONS
+*******************************************/
+
+
+section{
+	height:100vh;
+	display: block;
+	position: relative;
+}
+
+section:before{
+	content: '';
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	position:absolute ;
+}
+
+/*******************************************
+				  SECTION 1
+*******************************************/
+
+#accueil{
+
+	background-color: rgba(22,22,22,0.8);
+}
+
+#accueil:before{
+	-webkit-filter:contrast(1) sepia(1) saturate(8) grayscale(0) hue-rotate(0deg) Brightness(0.9) invert(0) alpha(opacity=0);
+	background-image: url("../img/img/equipment-768534.jpg");
+}
+
+#accueil div{
+	z-index: 2;
+	float: left;
+	height:100%;
+	display: inline-block;
+}
+
+#accueil div:first-child{
+	width: 68%;
+
+}
+
+#accueil div:first-child p{
+	margin-left: 15.5%;
+	color: white;
+
+}
+
+#accueil div:first-child p:first-child{
+	font-size: 3.5em;
+	margin-top: 14.8%;
+	text-shadow:0px 4px 8px #0f0f0f;
+	width:75%;
+
+}
+#accueil div:first-child p:nth-child(2){
+	font-size: 1.5em;
+	width:70%;
+
+}
+#accueil div:first-child p:nth-child(3){
+	font-size: 1.5em;
+}
+#accueil div:first-child p:nth-child(4){
+	font-size: 2.5em;
+}
+
+#accueil div:first-child p:nth-child(5){
+}
+
+#accueil div:nth-child(2){
+	margin: 0%;
+	width: 32%;
+}
+#accueil div:nth-child(2) img{
+	height:69%;
+	margin-top: 28%;
+
+}
+#accueil div:nth-child(1) form{
+	margin-left: 15.5%;
+
+
+}
+
+
+/*******************************************
+				  SECTION 2
+*******************************************/
+
+#mission{
+	background-color: rgba(0, 44, 83,0.9);
+}
+#mission:before{
+	-webkit-filter:contrast(1) sepia(0%) saturate(1) grayscale(1) hue-rotate(0deg) Brightness(0.9) invert(0);
+	background-image: url("../img/img/video-camera-1197571.jpg");
+}
+
+#mission div:first-child{
+	max-height:25%;
+	height:25%;
+	vertical-align: middle;
+	line-height: 1;
+	text-align: center;
+}
+#mission div:first-child h1{
+	vertical-align: middle;
+	line-height: 1;
+	font-size: 2.5em;
+	margin:90px auto 0px;
+}
+
+#mission div:first-child p{
+	vertical-align: middle;
+	line-height: 1;
+	display: inline-block;
+	font-size: 1em;
+	width: 34%;
+	font-family: "Raleway-Light";
+	margin: 25px auto 0px;
+}
+
+#mission div:nth-child(n+2){
+	max-height:35%;
+	height:35%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#mission div ul{
+	display: block;
+	height:100%;
+	margin: 0;
+
+}
+#mission div ul li{
+	display: inline-block;
+	width:30%;
+	margin: auto;
+	height:100%;
+	vertical-align: middle;
+}
+
+
+#mission div ul li h2{
+	display: inline-block;
+	max-height:15%;
+	width:100%;
+	margin: auto;
+	text-align: center;
+
+}
+#mission div ul li img{
+	display: inline-block;
+	max-height:35%;
+	margin: auto;
+	height: 45%;
+	width: auto;
+
+}
+#mission div ul li p{
+	display: inline-block;
+	max-height:50%;
+	margin: auto;
+
+}
+
+#mission div:nth-child(2) ul li:nth-child(2){
+	margin:auto 2%;
+
+}
+
+#mission div:nth-child(3) ul li{
+	width:30%;
+	display: inline-block;
+
+}
+
+
+
+/*******************************************
+				 informations SECTION 3
+*******************************************/
+#informations{
+	height: 100vh;
+	text-align: center;
+	background-color: rgba(229, 53, 61,0.7);
+}
+
+#informations:before{
+	-webkit-filter:contrast(1) sepia(0) saturate(0) grayscale(3) hue-rotate(0deg) Brightness(.4) invert(0);
+	background-image: url("../img/img/4591996039_b5734fb652_o.jpg");
+}
+
+#informations div:first-child{
+	height: 40%;
+	margin-bottom: 10%;
+}
+
+#informations div img{
+	height: 65%;
+	margin-top: 10%;
+}
+
+#informations div:nth-child(2){
+	height: 20%;
+}
+#informations div:nth-child(2) p{
+	width:90%;
+	margin: auto;
+}
+#informations div:nth-child(2) p{
+	margin-top: 10px;
+}
+
+#informations div:nth-child(3){
+	height: 20%;
+}
+#informations div:nth-child(3){
+	width:90%;
+	margin:auto;
+}
+
+
+
+/*******************************************
+				 newsletter SECTION 4
+*******************************************/
+#newsletter{
+	height: 50vh;
+	padding-top: 110px;
+	background-color: rgba(179, 179, 179,0.6);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(108,108,208,0) 0%, rgba(109,109,109,0.2) 23%, rgba(19,19,29,0.85) 100%);
+}
+
+#newsletter:before{
+	-webkit-filter:contrast(1) sepia(1) saturate(1) grayscale(1) hue-rotate(0deg) Brightness(0.4) invert(0);
+	background-image: url("../img/img/8646480167_05278b3295_o.jpg");
+	background-position: 50% 65%;
+	background-size: 130%;
+}
+
+#newsletter h1{
+	display: block;
+	margin: 0 auto 55px;
+	text-align: center;
+	text-shadow:0px 4px 8px #0f0f0f;
+}
+
+#newsletter div:nth-child(2) {
+	float: left;
+	width: 65%;
+}
+
+#newsletter div:nth-child(2) p{
+	text-shadow:0px 4px 8px #0f0f0f;
+	margin-left: 20%;
+	font-size: 1.2em;
+}
+
+#newsletter div:nth-child(2) p:first-child{
+
+}
+#newsletter div:nth-child(2) p:nth-child(2){
+
+}
+
+#newsletter div:nth-child(2) p:nth-child(3){
+
+}
+
+#newsletter div:nth-child(3){
+	display: inline-block;
+	width: 35%;
+	text-shadow:0px 4px 8px #0f0f0f;
+	float: right;
+}
+
+#newsletter div:nth-child(3)  form{
+	width:100%;
+
+}
+
+#newsletter div:nth-child(3)  form input{
+	margin-bottom: 10px;
+	height: 30px;
+	width:80%;
+
+}
+
+#newsletter div:nth-child(3) form button{
+	background-color: red;
+	border: 0px;
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+	width:80%;
+}
+
+/*******************************************
+				 contact SECTION 5
+*******************************************/
+
+#contact{
+	height:50vh;
+	padding-top: 30px;
+	color:rgb(0, 44, 83);
+}
+#contact:before{
+	-webkit-filter:contrast(1) saturate(10) grayscale(95%)  Brightness(1) invert(0);
+	background-image: url("../img/img/equipment-731132.jpg");
+	background-position:center ;
+	height:50vh;
+	opacity: 0.4;
+}
+
+#contact h1{
+	height:15%;
+	margin: 0px auto 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#contact div:nth-child(2){
+	height:80%;
+	width:50%;
+	float: left;
+	text-align: center;
+}
+
+
+#contact div:nth-child(2) img{
+	height:50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#contact div:nth-child(2) p{
+	height:20%;
+	margin: auto;
+	font-size: 2em;
+}
+
+#contact div:nth-child(2) p span{
+	color: rgb(229, 53, 61);
+}
+
+#contact div:nth-child(3){
+	height:80%;
+	width:50%;
+	float: left;
+}
+
+#contact div:nth-child(3) form{
+	height:100%;
+	width:80%;
+}
+
+#contact div:nth-child(3) form input,#contact div:nth-child(3) form textarea{
+	height:30px;
+	width:80%;
+	max-width:80%;
+	margin-bottom: 15px;
+	border: 0;
+	color:black;
+}
+::-webkit-input-placeholder {
+	color: rgb(0, 44, 83);
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:  rgb(0, 44, 83);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color:  rgb(0, 44, 83);
+}
+
+:-ms-input-placeholder {
+	color:  rgb(0, 44, 83);
+}
+
+#contact div:nth-child(3) form textarea{
+	height:150px;
+	max-height:220px;
+}
+
+#contact div:nth-child(3) form button{
+	float: left;
+	margin-left: 60%;
+	width:20%;
+	color: white;
+	background-color: rgb(229, 53, 61);
+	border:0px;
 }
