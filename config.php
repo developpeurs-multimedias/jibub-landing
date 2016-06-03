@@ -7,10 +7,10 @@
     define('MAILCHIMP_ID_LIST','6cc00e4a45');
 
     //PHPMailer Settings
-    define('MAILER_HOST','ns0.ovh.net');
+    define('MAILER_HOST','ssl0.ovh.net');
     define('MAILER_USERNAME','hello@jibub.com');
     define('MAILER_PASSWORD','jibub94800');
-    define('MAILER_PROTOCOL','TLS');
+    define('MAILER_PROTOCOL','SSL');
     define('MAILER_PORT','465');
 
 

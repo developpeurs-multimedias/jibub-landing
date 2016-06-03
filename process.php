@@ -13,9 +13,6 @@ require_once 'log4php/Logger.php';
 Logger::configure(__DIR__ . '/log4php/config.xml');
 $logger = Logger::getLogger('main');
 
-set_time_limit(5);
-
-
 $firstname = trim(ucfirst(strtolower($_POST['firstname'])));
 $lastname = trim(strtoupper(strtolower($_POST['name'])));
 $email = trim(strtolower($_POST['email']));
@@ -23,10 +20,9 @@ $usertype = $_POST['user-type'];
 
 
 $message = SubscribeMailChimp($email, $firstname, $lastname, $usertype, $id_list = MAILCHIMP_ID_LIST);
-echo $message; // TO BE DELETED
 $mail = new PHPMailer;
 
-$mail->SMTPDebug = 2;                               // Enable verbose debug output
+$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 //$mail->isMail();                                      // Set mailer to use SMTP
@@ -37,7 +33,6 @@ $mail->Username = MAILER_USERNAME;                 // SMTP username
 $mail->Password = MAILER_PASSWORD;                           // SMTP password
 $mail->SMTPSecure = MAILER_PROTOCOL;                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = MAILER_PORT;
-
 
 $mail->setFrom(mb_convert_encoding(MAILER_FROM_EMAIL,"UTF-8", "auto"), MAILER_FROM_NAME);
 $mail->addAddress($email);     // Add a recipient// Name is optional
@@ -55,14 +50,12 @@ try {
     if(!$mail->send()) {
         throw new Exception();
     } else {
-        $message=$logger->info('Email has been sent');
-        echo $message; // TO BE DELETED
+        $logger->info('Email has been sent');
     }
 } catch (Exception $e) {
     $message = $e->getMessage();
-    echo $logger->fatal('Mailer Error: ' . $mail->ErrorInfo);
-    echo $logger->fatal($message, $e);
-    exit;
+    $logger->fatal('Mailer Error: ' . $mail->ErrorInfo);
+    $logger->fatal($message, $e);
 }
 
 ?>
