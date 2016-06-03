@@ -1277,7 +1277,7 @@ section:before{
     #contact form fieldset{
         display: inline-block;
         float: initial;
-        width:90%;
+        width:100%;
     }
     #contact form fieldset:nth-child(2){
         display: inline-block;
@@ -1290,6 +1290,7 @@ section:before{
         float: initial;
         display: inline-block;
         margin-right: initial;
+        width:90%;
     }
     #contact div:nth-child(3) form textarea{
         display: inline-block;
@@ -1370,6 +1371,18 @@ section:before{
     #newsletter form input{
         width: 95%;
         float: initial;
+    }
+    #newsletter form fieldset label{
+        float: initial;
+        margin-right: 5px;
+
+    }
+
+    #newsletter form input[type=radio]{
+        margin-right: 2px;
+        height: 24px;
+        float: initial;
+        text-align: center;
     }
 
 
