@@ -716,6 +716,7 @@ section:before{
 
 #newsletter{
     padding-top: 122px;
+    padding-bottom:100px;
 }
 
 #newsletter:before{
@@ -1276,7 +1277,7 @@ section:before{
     #contact form fieldset{
         display: inline-block;
         float: initial;
-        width:68%;
+        width:90%;
     }
     #contact form fieldset:nth-child(2){
         display: inline-block;
