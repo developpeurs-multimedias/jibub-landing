@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <title>JIBUB</title>
-<!-- META -->
+<?php include ('header.php') ?>
 
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
-
-<!-- ICON -->
-
-        <link rel="shortcut icon" href="img/logo/Logo-Jibub.png" type="image/x-icon" alt="transparent logo Jibub"/>
-        <link rel="icon" href="img/logo/Logo-Jibub.png" type="image/x-icon" alt="transparent logo Jibub"/>
-
-
-<!-- CSS local -->
-
-        <!-- feuille de style landing page -->
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-<!-- LOCAL CSS framework -->
-
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!--[if lte IE 7]>
-        <link rel="stylesheet" href="style_ie.css"/>
-        <![endif]-->
-
-        <!-- RESET STYLE -->
-        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
-
-
-<!-- DISTANT CSS framework -->
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-
-    </head>
-
-    <body>
+<body>
 
         <div id="site" class="center clearfix headerstandard">
 
@@ -53,7 +10,7 @@
 
                     <a id="rdw__icon"  class="header__logo" ></a>
 
-                    <a id="header__icon" href="index.html#accueil" class="header__icon"><img class="logo" src="img/logo/Jibub - Logo seul.png" alt="icone JIBUB"><img class="logo" src="img/logo/Jibub - Typo Logo.png" alt="icone JIBUB"></a>
+                    <a id="header__icon" href="index.php#accueil" class="header__icon"><img class="logo" src="img/logo/Jibub - Logo seul.png" alt="icone JIBUB"><img class="logo" src="img/logo/Jibub - Typo Logo.png" alt="icone JIBUB"></a>
 
 
                     <nav id="nav" class="clearfix display menustandard menu">
@@ -62,28 +19,28 @@
 
                         <ul id="navi" class="clearfix menu ">
 
-                            <li><a href="index.html#accueil" class="target-accueil current active">ACCUEIL</a></li>
+                            <li><a href="index.php#accueil" class="target-accueil current active">ACCUEIL</a></li>
 
-                            <li><a href="index.html#quoi" class="target-quoi">C'EST QUOI ?</a></li>
+                            <li><a href="index.php#quoi" class="target-quoi">C'EST QUOI ?</a></li>
 
-                            <li><a href="index.html#mission" class="target-mission">NOTRE MISSION</a></li>
+                            <li><a href="index.php#mission" class="target-mission">NOTRE MISSION</a></li>
 
-                            <li><a href="index.html#comment" class="target-comment">C'EST COMMENT ?</a></li>
+                            <li><a href="index.php#comment" class="target-comment">C'EST COMMENT ?</a></li>
 
-                            <li><a href="index.html#newsletter" class="target-newsletter">NEWSLETTER</a></li>
+                            <li><a href="index.php#newsletter" class="target-newsletter">NEWSLETTER</a></li>
 
-                            <li><a href="index.html#contact" class="target-contact">CONTACT</a></li>
+                            <li><a href="index.php#contact" class="target-contact">CONTACT</a></li>
 
                         </ul>
 
                         <div id="nav-free"> target="_blank"
                             <ul>
-                                <li><a href="index.html#accueil" class="target-accueil current active" >ACCUEIL</a></li>
-                                <li><a href="index.html#quoi" class="target-quoi">C'EST QUOI ?</a></li>
-                                <li><a href="index.html#mission" class="target-mission">NOTRE MISSION</a></li>
-                                <li><a href="index.html#comment" class="target-comment">C'EST COMMENT ?</a></li>
-                                <li><a href="index.html#newsletter" class="target-newsletter">NEWSLETTER</a></li>
-                                <li><a href="index.html#contact" class="target-contact">CONTACT</a></li>
+                                <li><a href="index.php#accueil" class="target-accueil current active" >ACCUEIL</a></li>
+                                <li><a href="index.php#quoi" class="target-quoi">C'EST QUOI ?</a></li>
+                                <li><a href="index.php#mission" class="target-mission">NOTRE MISSION</a></li>
+                                <li><a href="index.php#comment" class="target-comment">C'EST COMMENT ?</a></li>
+                                <li><a href="index.php#newsletter" class="target-newsletter">NEWSLETTER</a></li>
+                                <li><a href="index.php#contact" class="target-contact">CONTACT</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -246,24 +203,8 @@
 
                         </div>
                         <div class="clearfix">
-
-                            <form>
-                                <input value="" type="text" placeholder="Nom Prénom">
-                                <input value="" type="email" placeholder="E-mail">
-                                <fieldset>
-                                    <legend>Rejoindre la communauté:</legend>
-                                    <label for="loueur_profile" title="type de profile du client">Loueur</label>
-                                    <input type="radio" name="gender" value="Loueur" checked id="loueur_profile">
-
-                                    <label for="locataire_profile" title="information du client">Locataire</label>
-                                    <input type="radio" name="gender" value="Locataire" id="locataire_profile">
-
-                                    <label for="both_profile" title="information du client">Les deux</label>
-                                    <input type="radio" name="gender" value="both" id="both_profile">
-                                </fieldset>
-                                <button value="" type="submit">S'INSCRIRE</button>
-                            </form>
-
+                            
+                            <?php include ('form-newsletters.php') ?>
                         </div>
 
                     </div>
@@ -300,44 +241,4 @@
 
             </div>
 
-            <footer id="footer" class="clearfix">
-
-            </footer>
-
-        </div>
-
-<!-- DISTANT JS framework -->
-
-        <!-- Jquery GOOGLE -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-
-<!-- LOCAL JS framework  -->
-
-        <!-- Jquery LOCAL -->
-        <script src="js/jquery.min.js"></script>
-
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- waypoint -->
-        <script src="js/jquery.waypoints.min.js"></script>
-
-
-<!-- local JS -->
-
-        <!-- navigation -->
-        <script src="js/nav.js"></script><!-- navigation -->
-
-        <!-- smooth -->
-        <script src="js/smooth.js"></script><!-- smooth -->
-
-        <!-- app -->
-        <script src="js/app.js"></script><!-- app -->
-
-    </body>
-
-</html>
+<?php include ('footer.php') ?>
