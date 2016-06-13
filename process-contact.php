@@ -1,9 +1,5 @@
 <?php
 
-// Reporte toutes les erreurs PHP (Voir l'historique des modifications)
-error_reporting(E_ALL);
-
-
 require 'PHPMailer-5.2.14/PHPMailerAutoload.php';
 include("config-contact.php");
 
@@ -78,7 +74,7 @@ $jibub_mail->Body    = file_get_contents(MAILER_BODY);
 $logger->info("All email information is set up");
 
 
-header('Location:./index.php#newsletter');
+header('Location:./index.php#contact');
 
 
 try {

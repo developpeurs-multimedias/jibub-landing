@@ -1,8 +1,5 @@
 <?php
 
-// Reporte toutes les erreurs PHP (Voir l'historique des modifications)
-error_reporting(E_ALL);
-
 
 require 'PHPMailer-5.2.14/PHPMailerAutoload.php';
 include("config.php");
