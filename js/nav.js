@@ -6,11 +6,10 @@
 ///
 $(function(){
     $('#nav ul a').click(function(){
-
-        $('#nav ul a').removeClass('active');
-        $(this).addClass('active');
-        var nav_attr = ($(this).html()).toLowerCase();
-        $("#nav-free ul li").removeClass("btn-active");
+        var _that = this;
+        $('#nav ul li a').removeClass('btn-active');
+        var nav_attr = _that.classList[0];
+        $("#nav-free ul a").removeClass("btn-active");
         $("." + nav_attr).toggleClass("btn-active");
     });
     return false;
@@ -37,7 +36,7 @@ $(function(){
         var nav_free_attr = ($(this).html()).toLowerCase();
         $("." + nav_free_attr).addClass('btn-active');
         $('#nav ul a').removeClass('active');
-        $(".target-" + nav_free_attr).toggleClass("active");
+        $("." + nav_free_attr).toggleClass("active");
     });
     return false;
 });
@@ -57,9 +56,39 @@ $('#nav-free a').click(function(){
 
 ///////////////
 ///
-$('#rdw__icon').click(function(e){
+$('#rdw__icon').click(function(){
 
-    e.preventDefault();
     $('nav').toggleClass('display');
+
+});
+
+
+///////////////
+
+/// smooth scroll ///
+
+///////////////
+///
+
+$('#nav ul a').click(function(){
+
+    var _that = this;
+    var the_hash = _that.classList[0];
+
+    elements = document.querySelectorAll('#navi a');
+
+    for(var i = 0 ; i < elements.length; i++ )
+        {
+            console.log("n° " + elements[i]  + '  top a ' +$("#"+elements[i].classList[0]).offset().top)
+        }
+
+
+        $('#landing-page').animate({
+            scrollTop: $("#" +the_hash).offset().top - 80
+        }, 1000);
+    return false;
+
+
+
 
 });

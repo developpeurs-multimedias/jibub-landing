@@ -7,16 +7,16 @@
     define('MAILCHIMP_ID_LIST','6cc00e4a45');
 
     //PHPMailer Settings
-    define('MAILER_HOST','ssl0.ovh.net');
-    define('MAILER_USERNAME','hello@jibub.com');
+    define('MAILER_HOST','SSL0.OVH.NET');
+    define('MAILER_USERNAME','community@jibub.com');
     define('MAILER_PASSWORD','jibub94800');
     define('MAILER_PROTOCOL','SSL');
-    define('MAILER_PORT','465');
+    define('MAILER_PORT',587);
 
 
     //MailerInformation
-    define('MAILER_FROM_NAME','Jibub');
-    define('MAILER_FROM_EMAIL','hello@jibub.com');
+    define('MAILER_FROM_NAME','Jibub Community');
+    define('MAILER_FROM_EMAIL','community@jibub.com');
     define('MAILER_SUBJECT','Inscription à la newsletters de Jibub');
     define('MAILER_BODY','email/email.php');
 

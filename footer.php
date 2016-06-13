@@ -36,6 +36,9 @@
 <!-- app -->
 <script src="js/app.js"></script><!-- app -->
 
+<!-- newsletter ajax -->
+<script src="js/newsletter-ajax.js"></script><!-- app -->
+
 </body>
 
 </html>

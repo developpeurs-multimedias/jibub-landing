@@ -162,8 +162,9 @@ header{
 
 #landing-page{
 	display: block;
-	position: relative;
-	overflow: hidden;
+	position: fixed;
+	height: calc( 100vh - 60px);
+	overflow: scroll;
 	top:80px;
 	font-size:12pt;
     width: 100%;
@@ -192,6 +193,10 @@ input, button{
 	background-color: rgb(229, 53, 61);
 	border:0px;
 
+}
+
+.italic{
+	font-style: italic;
 }
 
 
@@ -284,6 +289,10 @@ nav li a:hover{
 	color:rgb(229, 53, 61);
 }
 
+.quoi-br{
+	display: none;
+}
+
 #nav-free{
 	display: none;
 	position: fixed;
@@ -347,7 +356,6 @@ nav div ul li{
 	-moz-transition:all 0.5s linear;
 	-o-transition:all 0.5s linear;
 	transition:all 0.5s linear;
-	box-shadow:0 0 7px 2px rgb(229, 53, 61)!important;
 	width:30px!important;
 	height:30px!important;
 }
@@ -644,7 +652,7 @@ section:before{
 #comment::before{
 	display: inline-block;
 
-	background-image: url("../img/img/Background-cest-comment4.jpg")
+	background-image: url("../img/img/Background_mission3.jpg")
 }
 
 
@@ -833,7 +841,7 @@ section:before{
     line-height: 26px;
     vertical-align: middle;
 }
-}
+
 
 #newsletter  form button{
 	background-color: rgb(229, 53, 61);
@@ -939,14 +947,15 @@ section:before{
 }
 
 #contact form fieldset{
-    width:43%;
+    width:360px;
     display: inline-block;
     float: left;
 
 }
 #contact form fieldset:nth-child(2){
     min-width:40%;
-    margin-left: 65px;
+    margin-left: 0;
+    width: initial;
 
 }
 
@@ -1151,11 +1160,16 @@ section:before{
     }
 
     #quoi div:nth-child(2){
-        width:89% ;
+        width:90% ;
     }
     #quoi div:nth-child(3) {
-        height: 20%;
-        width: 61%;
+        height: initial;
+        width: 90%;
+    }
+    #quoi div:nth-child(3) p{
+        height: initial;
+		margin:auto;
+        width: 65%;
     }
 
     #mission{
@@ -1277,11 +1291,10 @@ section:before{
     #contact form fieldset{
         display: inline-block;
         float: initial;
-        width:100%;
     }
     #contact form fieldset:nth-child(2){
         display: inline-block;
-        width: 95%!important;
+        width: 360px!important;
         float: initial;
         margin-left: initial;
     }
@@ -1294,8 +1307,9 @@ section:before{
     }
     #contact div:nth-child(3) form textarea{
         display: inline-block;
-        width:100%;
+		max-width: 90%;
         margin-bottom: 20px;
+		max-height:180px;
     }
 
     #contact div:nth-child(3) form button{
@@ -1356,16 +1370,53 @@ section:before{
 		left:initial;
 		right:  35%;
 	}
+	
+	#quoi div:nth-child(3) p {
+		height: initial;
+		margin: auto;
+		width: 90%;
+	}
+	.quoi-br{
+		display: block;
+	}
+
+	#mission div ul li img {
+		margin: 20px auto;
+		height: 5em;
+	}
 
 
 	#mission{
 		height: initial;
 	}
+	#mission div p{
+		width: 80%!important;
+	}
+	#comment img {
+		height: 6em;
+		margin: 5px auto 5px;
+	}
 
-    #newsletter form{
+
+	#comment li {
+		width:90%!important;
+		margin: auto;
+		float: initial!important;
+	}
+
+	#comment li p{
+		width:95%!important;
+		margin: auto;
+		float: initial!important;
+	}
+
+    #newsletter {
+		padding-bottom:5px;
+		padding-top: 35px;
     }
     #newsletter [type=submit]{
-        width: 90%;
+		width: 95%;
+		float: initial;
     }
 
     #newsletter form input{
@@ -1384,6 +1435,14 @@ section:before{
         float: initial;
         text-align: center;
     }
+
+	#newsletter > p:first-child{
+		font-size: 19px;
+		margin-bottom:25px;
+	}
+	#newsletter form fieldset{
+		margin-top: 20px;
+	}
 
 
 }

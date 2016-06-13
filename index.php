@@ -19,28 +19,28 @@
 
                         <ul id="navi" class="clearfix menu ">
 
-                            <li><a href="index.php#accueil" class="target-accueil current active">ACCUEIL</a></li>
+                            <li><a href="index.php#accueil" class="accueil current active">ACCUEIL</a></li>
 
-                            <li><a href="index.php#quoi" class="target-quoi">C'EST QUOI ?</a></li>
+                            <li><a href="index.php#quoi" class="quoi">C'EST QUOI ?</a></li>
 
-                            <li><a href="index.php#mission" class="target-mission">NOTRE MISSION</a></li>
+                            <li><a href="index.php#mission" class="mission">NOTRE MISSION</a></li>
 
-                            <li><a href="index.php#comment" class="target-comment">C'EST COMMENT ?</a></li>
+                            <li><a href="index.php#comment" class="comment">C'EST COMMENT ?</a></li>
 
-                            <li><a href="index.php#newsletter" class="target-newsletter">NEWSLETTER</a></li>
+                            <li><a href="index.php#newsletter" class="newsletter">NEWSLETTER</a></li>
 
-                            <li><a href="index.php#contact" class="target-contact">CONTACT</a></li>
+                            <li><a href="index.php#contact" class="contact">CONTACT</a></li>
 
                         </ul>
 
                         <div id="nav-free"> target="_blank"
                             <ul>
-                                <li><a href="index.php#accueil" class="target-accueil current active" >ACCUEIL</a></li>
-                                <li><a href="index.php#quoi" class="target-quoi">C'EST QUOI ?</a></li>
-                                <li><a href="index.php#mission" class="target-mission">NOTRE MISSION</a></li>
-                                <li><a href="index.php#comment" class="target-comment">C'EST COMMENT ?</a></li>
-                                <li><a href="index.php#newsletter" class="target-newsletter">NEWSLETTER</a></li>
-                                <li><a href="index.php#contact" class="target-contact">CONTACT</a></li>
+                                <li><a href="index.php#accueil" class="accueil current active" >ACCUEIL</a></li>
+                                <li><a href="index.php#quoi" class="quoi">C'EST QUOI ?</a></li>
+                                <li><a href="index.php#mission" class="mission">NOTRE MISSION</a></li>
+                                <li><a href="index.php#comment" class="comment">C'EST COMMENT ?</a></li>
+                                <li><a href="index.php#newsletter" class="newsletter">NEWSLETTER</a></li>
+                                <li><a href="index.php#contact" class="contact">CONTACT</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -96,18 +96,18 @@
 
                     </div>
                     <div class="clearfix">
-                        <h2>JIBUB, C'EST POUR LES PROS* !</h2>
+                        <h2>JIBUB, <br class="quoi-br">C'EST POUR LES PROS* !</h2>
                         <p>
                             Vous êtes une société de production ? un freelance ? un loueur professionnel ou une agence ?<br>
                             Rejoignez JIBUB et référencez votre équipement au moyen d’une plateforme nationale, disponible sur applications mobiles et web app.
                         </p>
-                        <p>
+                        <p class="italic">
                             *La plateforme ne s'adresse pas aux particuliers.
                         </p>
 
                     </div>
                     <div class="clearfix">
-                        <h2>JIBUB, C'EST SÉCURISÉ !</h2>
+                        <h2>JIBUB, <br class="quoi-br">C'EST SÉCURISÉ !</h2>
                         <p>
                             Toutes les locations sont assurées sur notre plateforme et sont couvertes intégralement par notre partenaire assurance,<br> groupe leader dans
                             le secteur des assurances de l’Audiovisuel.
@@ -190,7 +190,7 @@
                 <section id="newsletter"  class="content clearfix">
 
                     <p>
-                        Suivez l’actualité de JIBUB et soyez les premiers avertis de sa sortie.
+                        Suivez l’actualité de JIBUB et <br class="quoi-br">soyez les premiers avertis de sa sortie.
                     </p>
 
                     <div class="clearfix">
@@ -205,7 +205,10 @@
                         <div class="clearfix">
 
                             <?php include ('form-newsletters.php') ?>
+
                         </div>
+
+
 
                     </div>
                 </section>
@@ -217,24 +220,16 @@
                         <p>À bientôt sur</p>
                         <img class="logo" src="img/logo/Jibub - Typo Logo.png" alt="icone JIBUB">
                         <ul>
-                            <li class="btn-reseau"><a href="https://www.facebook.com/app.jibub" target="_blank"><img src="img/network/facebook.png"></a></li>
-                            <li class="btn-reseau"><a href="https://twitter.com/app_jibub" target="_blank"><img src="img/network/twitter.png"></a></li>
+                            <li class="btn-reseau"><a href="http://bit.ly/fb-jibub" target="_blank"><img src="img/network/facebook.png"></a></li>
+                            <li class="btn-reseau"><a href="http://bit.ly/twi-jibub" target="_blank"><img src="img/network/twitter.png"></a></li>
                         </ul>
 
                     </div>
                     <div class="clearfix">
 
-                        <form>
-                            <fieldset>
-                                <input value="" type="text" placeholder="Nom Prénom">
-                                <input value="" type="email" placeholder="E-mail">
-                                <input value="" type="text" placeholder="Société">
-                            </fieldset>
-                            <fieldset>
-                                <textarea value="" placeholder="Message"></textarea>
-                                <button value="" type="submit">ENVOI</button>
-                            </fieldset>
-                        </form>
+
+                        <?php include('form-contact.php') ?>
+
 
                     </div>
                 </section>

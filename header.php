@@ -4,8 +4,13 @@
     <title>JIBUB</title>
     <!-- META -->
 
-    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="JIBUB, Plateforme de location audiovisuelle entre professionnels de l'image !">
+    <meta name="keywords" content="location, loueur, locataire, audiovisuelle, application, géolocalisation, professionnel, " />
+    <meta name="author" content="Jibub" />
+    <meta name="robots" content="index, follow" />
+    <meta name="copyright" content="© Jibub" />
 
 
     <!-- ICON -->
@@ -22,7 +27,7 @@
     <!-- LOCAL CSS framework -->
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!--[if lte IE 7]>
     <link rel="stylesheet" href="style_ie.css"/>

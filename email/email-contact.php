@@ -11,8 +11,8 @@
 
 Bonjour,
 <br><br>
-Nous vous confirmons votre inscription à la bêta de la plateforme JIBUB et nous vous en remerciant.
-<br><br>
+Nous avons bien reçu votre e-mail, nous vous répondrons d'ici peu.
+<br><br><br><br>
 Restez connecté à notre actualité en rejoignant la communauté JIBUB sur les réseaux sociaux : <a href="https://twitter.com/app_JIBUB">Twitter</a> & <a href="https://www.facebook.com/app.jibub">Facebook</a>.
 <br><br><br>
 Toute l'équipe reste à votre écoute ! N'hésitez pas à nous contacter :
