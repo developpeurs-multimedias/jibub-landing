@@ -79,7 +79,7 @@ $('#nav ul a').click(function(){
 
     for(var i = 0 ; i < elements.length; i++ )
         {
-            console.log("n° " + elements[i]  + '  top a ' +$("#"+elements[i].classList[0]).offset().top)
+            //console.log("n° " + elements[i]  + '  top a ' +$("#"+elements[i].classList[0]).offset().top)
         }
 
 

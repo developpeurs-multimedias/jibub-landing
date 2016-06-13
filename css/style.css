@@ -954,7 +954,7 @@ section:before{
 }
 #contact form fieldset:nth-child(2){
     min-width:40%;
-    margin-left: 0;
+    margin-left: 10%;
     width: initial;
 
 }
@@ -1291,6 +1291,8 @@ section:before{
     #contact form fieldset{
         display: inline-block;
         float: initial;
+		text-align: center;
+		vertical-align: top;
     }
     #contact form fieldset:nth-child(2){
         display: inline-block;
@@ -1307,13 +1309,13 @@ section:before{
     }
     #contact div:nth-child(3) form textarea{
         display: inline-block;
-		max-width: 90%;
+		max-width: 100%;
         margin-bottom: 20px;
 		max-height:180px;
     }
 
     #contact div:nth-child(3) form button{
-        float: initial;
+        float: right;
         display: block;
         margin:auto;
         margin-bottom: 40px ;

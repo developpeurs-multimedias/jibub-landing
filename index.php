@@ -19,7 +19,7 @@
 
                         <ul id="navi" class="clearfix menu ">
 
-                            <li><a href="index.php#accueil" class="accueil current active">ACCUEIL</a></li>
+                            <li><a href="index.php#accueil" class="accueil current ">ACCUEIL</a></li>
 
                             <li><a href="index.php#quoi" class="quoi">C'EST QUOI ?</a></li>
 

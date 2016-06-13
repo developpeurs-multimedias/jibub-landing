@@ -7,7 +7,7 @@ $( document ).ready(function() {
         },
         offset: 0
     });
-    console.log(waypoint.element)
+    //console.log(waypoint.element)
    // console.log(waypoint)
 
 

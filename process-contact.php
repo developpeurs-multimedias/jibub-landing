@@ -61,15 +61,15 @@ $jibub_mail->Password = MAILER_PASSWORD;                           // SMTP passw
 $jibub_mail->SMTPSecure = MAILER_PROTOCOL;                            // Enable TLS encryption, `ssl` also accepted
 $jibub_mail->Port = MAILER_PORT;
 
-$jibub_mail->setFrom(mb_convert_encoding(MAILER_FROM_EMAIL,"UTF-8", "auto"), MAILER_FROM_NAME);
-$jibub_mail->addAddress($email);     // Add a recipient// Name is optional
+$jibub_mail->setFrom(mb_convert_encoding($email,"UTF-8", "auto"), $firstname);
+$jibub_mail->addAddress(MAILER_FROM_EMAIL);     // Add a recipient// Name is optional
 
 $jibub_mail->isHTML(true);                                  // Set email format to HTML
 
 $jibub_mail->setLanguage('fr');
 
-$jibub_mail->Subject = MAILER_SUBJECT;
-$jibub_mail->Body    = file_get_contents(MAILER_BODY);
+$jibub_mail->Subject = $socity;
+$jibub_mail->Body    = $message;
 
 $logger->info("All email information is set up");
 
@@ -78,10 +78,13 @@ header('Location:./index.php#contact');
 
 
 try {
-    if(!$mail->send()) {
+    if(!$jibub_mail->send()) {
         throw new Exception();
     } else {
         $logger->info('Email has been sent');
+        if(!$mail->send()) {
+            throw new Exception();
+        }
     }
 } catch (Exception $e) {
     $message = $e->getMessage();

@@ -28,10 +28,10 @@
 <!-- local JS -->
 
 <!-- navigation -->
-<script src="js/nav.js"></script><!-- navigation -->
+<script src="js/nv.js"></script><!-- navigation -->
 
 <!-- smooth -->
-<script src="js/smooth.js"></script><!-- smooth -->
+<script src="js/smoth.js"></script><!-- smooth -->
 
 <!-- app -->
 <script src="js/app.js"></script><!-- app -->
