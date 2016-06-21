@@ -714,6 +714,9 @@ FATAL [2016-06-21 14:17:38] USERTYPE must be provided - Please enter a value
 INFO [2016-06-21 14:17:38] All email information is set up
 INFO [2016-06-21 14:17:38] Email has been sent
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
