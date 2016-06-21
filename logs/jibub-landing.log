@@ -5,6 +5,7 @@ FATAL [2016-06-04 23:26:09]
 INFO [2016-06-05 01:33:14] L'utilisateur Fabienp BIRBAP (pbirba.fabien@gmail.com) s'est bien inscrit
 INFO [2016-06-05 01:33:14] All email information is set up
 INFO [2016-06-05 01:33:20] Email has been sent
+<<<<<<< Updated upstream
 INFO [2016-06-05 21:49:32] L'utilisateur Films FAHARI (contact@faharifilms.com) s'est bien inscrit
 INFO [2016-06-05 21:49:32] All email information is set up
 INFO [2016-06-05 21:49:32] Email has been sent
@@ -388,3 +389,328 @@ INFO [2016-06-21 14:28:29] Email has been sent
 FATAL [2016-06-21 14:28:41] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
 INFO [2016-06-21 14:28:41] All email information is set up
 INFO [2016-06-21 14:28:42] Email has been sent
+=======
+FATAL [2016-06-05 22:04:40] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:04:40] All email information is set up
+FATAL [2016-06-05 22:09:40] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:09:40] 
+FATAL [2016-06-05 22:21:55] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:21:55] All email information is set up
+FATAL [2016-06-05 22:23:53] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:23:53] All email information is set up
+FATAL [2016-06-05 22:23:53] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:23:53] 
+FATAL [2016-06-05 22:25:27] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:25:27] All email information is set up
+FATAL [2016-06-05 22:25:35] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:25:35] 
+FATAL [2016-06-05 22:26:55] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:26:55] 
+FATAL [2016-06-05 22:27:42] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:27:42] All email information is set up
+FATAL [2016-06-05 22:27:45] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:27:45] 
+FATAL [2016-06-05 22:29:31] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:29:31] All email information is set up
+FATAL [2016-06-05 22:29:31] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:29:31] 
+INFO [2016-06-05 22:31:41] L'utilisateur Fabien BIRBAP (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-05 22:31:41] All email information is set up
+FATAL [2016-06-05 22:33:43] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:33:43] All email information is set up
+FATAL [2016-06-05 22:33:47] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:33:47] 
+FATAL [2016-06-05 22:34:21] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:34:21] All email information is set up
+FATAL [2016-06-05 22:34:23] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:34:23] 
+FATAL [2016-06-05 22:35:12] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:35:12] All email information is set up
+FATAL [2016-06-05 22:35:25] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:35:25] 
+FATAL [2016-06-05 22:36:40] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:36:40] All email information is set up
+FATAL [2016-06-05 22:36:41] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:36:41] 
+FATAL [2016-06-05 22:36:41] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:36:41] 
+FATAL [2016-06-05 22:37:30] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:37:30] All email information is set up
+FATAL [2016-06-05 22:40:59] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:40:59] All email information is set up
+FATAL [2016-06-05 22:42:23] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:42:23] All email information is set up
+FATAL [2016-06-05 22:42:31] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:42:31] 
+FATAL [2016-06-05 22:45:09] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:45:09] All email information is set up
+FATAL [2016-06-05 22:45:59] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:45:59] 
+FATAL [2016-06-05 22:47:24] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:47:24] 
+FATAL [2016-06-05 22:48:10] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:48:10] 
+FATAL [2016-06-05 22:49:37] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:49:37] All email information is set up
+FATAL [2016-06-05 22:54:37] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 22:54:37] 
+FATAL [2016-06-05 22:58:27] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 22:58:27] All email information is set up
+FATAL [2016-06-05 23:03:27] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 23:03:27] 
+FATAL [2016-06-05 23:05:02] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 23:05:02] All email information is set up
+FATAL [2016-06-05 23:10:02] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 23:10:02] 
+FATAL [2016-06-05 23:22:52] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 23:22:52] All email information is set up
+FATAL [2016-06-05 23:27:52] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 23:27:52] 
+FATAL [2016-06-05 23:51:28] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 23:51:28] All email information is set up
+FATAL [2016-06-05 23:56:28] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-05 23:56:28] 
+FATAL [2016-06-05 23:58:04] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-05 23:58:04] All email information is set up
+FATAL [2016-06-06 00:03:05] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:03:05] 
+INFO [2016-06-06 00:03:48] L'utilisateur Fabien BIRBA4@ (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 00:03:48] All email information is set up
+FATAL [2016-06-06 00:08:48] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:08:48] 
+FATAL [2016-06-06 00:18:26] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-06 00:18:26] All email information is set up
+INFO [2016-06-06 00:19:53] L'utilisateur Fabien BIRBA1 (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 00:19:53] All email information is set up
+FATAL [2016-06-06 00:22:48] The domain portion of the email address is invalid (the portion after the @: gmail.com0)
+INFO [2016-06-06 00:22:48] All email information is set up
+FATAL [2016-06-06 00:23:26] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:23:26] 
+FATAL [2016-06-06 00:24:54] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:24:54] 
+FATAL [2016-06-06 00:27:49] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:27:49] 
+INFO [2016-06-06 00:29:50] L'utilisateur Fabienpo BIRBAPO (birba.fabien@gmail.compo) s'est bien inscrit
+INFO [2016-06-06 00:29:50] All email information is set up
+FATAL [2016-06-06 00:34:50] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:34:50] 
+INFO [2016-06-06 00:45:46] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 00:45:46] All email information is set up
+FATAL [2016-06-06 00:50:46] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:50:46] 
+INFO [2016-06-06 00:57:32] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 00:57:32] All email information is set up
+FATAL [2016-06-06 00:57:35] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 00:57:35] 
+FATAL [2016-06-06 01:01:41] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-06 01:01:41] All email information is set up
+FATAL [2016-06-06 01:01:44] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 01:01:44] 
+INFO [2016-06-06 01:15:16] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 01:15:16] All email information is set up
+INFO [2016-06-06 02:22:38] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 02:22:38] All email information is set up
+FATAL [2016-06-06 02:27:38] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 02:27:38] 
+INFO [2016-06-06 02:32:15] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 02:32:15] All email information is set up
+FATAL [2016-06-06 02:37:16] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 02:37:16] 
+INFO [2016-06-06 11:28:11] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 11:28:11] All email information is set up
+INFO [2016-06-06 12:05:21] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 12:05:21] All email information is set up
+INFO [2016-06-06 12:07:16] Email has been sent
+INFO [2016-06-06 12:09:30] All email information is set up
+FATAL [2016-06-06 12:14:31] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-06 12:14:31] 
+INFO [2016-06-06 13:11:23] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-06 13:47:17] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+FATAL [2016-06-06 14:08:21] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:08:46] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:08:54] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:12:21] The email parameter should include an email, euid, or leid key
+FATAL [2016-06-06 14:12:32] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:13:41] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:14:25] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:15:24] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-06 14:15:46] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 15:30:30] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-08 15:52:09] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-08 15:53:57] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-08 15:53:57] All email information is set up
+FATAL [2016-06-08 15:58:57] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 15:58:57] 
+FATAL [2016-06-08 16:02:22] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-08 16:03:12] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:04:04] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+FATAL [2016-06-08 16:04:41] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:07:23] All email information is set up
+FATAL [2016-06-08 16:12:23] Mailer Error: L'adresse d'expéditeur suivante a échoué : community@jibub.com : Called MAIL FROM without being connected,,,Erreur du serveur SMTP : Called MAIL FROM without being connectedErreur du serveur SMTP : Called MAIL FROM without being connected
+FATAL [2016-06-08 16:12:23] 
+FATAL [2016-06-08 16:16:05] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-08 16:18:32] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-08 16:21:03] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-08 16:30:35] birba.fabien@gmail.com is already subscribed to the list.
+FATAL [2016-06-08 16:31:43] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:31:43] All email information is set up
+FATAL [2016-06-08 16:36:43] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 16:36:43] 
+FATAL [2016-06-08 16:40:02] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:40:02] All email information is set up
+FATAL [2016-06-08 16:40:06] The email parameter should include an email, euid, or leid key
+INFO [2016-06-08 16:40:06] All email information is set up
+FATAL [2016-06-08 16:40:24] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:40:24] All email information is set up
+FATAL [2016-06-08 16:41:07] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:41:07] All email information is set up
+FATAL [2016-06-08 16:41:46] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:41:46] All email information is set up
+FATAL [2016-06-08 16:58:31] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:58:31] All email information is set up
+FATAL [2016-06-08 16:58:59] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:58:59] All email information is set up
+FATAL [2016-06-08 16:59:14] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:59:14] All email information is set up
+FATAL [2016-06-08 16:59:47] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 16:59:47] All email information is set up
+FATAL [2016-06-08 17:00:20] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 17:00:20] All email information is set up
+FATAL [2016-06-08 17:00:21] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 17:00:21] All email information is set up
+FATAL [2016-06-08 17:05:20] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 17:05:20] 
+FATAL [2016-06-08 17:05:22] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 17:05:22] 
+FATAL [2016-06-08 17:06:40] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 17:06:40] All email information is set up
+FATAL [2016-06-08 17:11:40] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 17:11:40] 
+FATAL [2016-06-08 17:28:04] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 17:28:04] All email information is set up
+FATAL [2016-06-08 17:33:04] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 17:33:04] 
+FATAL [2016-06-08 17:38:37] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-08 17:38:37] All email information is set up
+FATAL [2016-06-08 17:43:38] Mailer Error: Échec de la connexion SMTP. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+FATAL [2016-06-08 17:43:38] 
+FATAL [2016-06-09 00:35:52] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:35:52] All email information is set up
+INFO [2016-06-09 00:35:58] Email has been sent
+FATAL [2016-06-09 00:48:03] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:48:03] All email information is set up
+INFO [2016-06-09 00:48:04] Email has been sent
+FATAL [2016-06-09 00:50:28] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:50:28] All email information is set up
+INFO [2016-06-09 00:50:28] Email has been sent
+FATAL [2016-06-09 00:53:00] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:53:00] All email information is set up
+INFO [2016-06-09 00:53:01] Email has been sent
+FATAL [2016-06-09 00:54:18] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:54:18] All email information is set up
+FATAL [2016-06-09 00:54:39] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:54:39] All email information is set up
+FATAL [2016-06-09 00:55:01] birba.fabien@gmail.com is already subscribed to the list.
+INFO [2016-06-09 00:55:01] All email information is set up
+INFO [2016-06-09 00:55:01] Email has been sent
+INFO [2016-06-09 02:15:38] All email information is set up
+INFO [2016-06-09 02:15:45] Email has been sent
+INFO [2016-06-09 02:19:08] All email information is set up
+INFO [2016-06-09 02:19:09] Email has been sent
+INFO [2016-06-09 02:20:38] All email information is set up
+INFO [2016-06-09 02:20:38] Email has been sent
+INFO [2016-06-09 02:54:21] All email information is set up
+INFO [2016-06-09 02:54:22] Email has been sent
+INFO [2016-06-09 02:55:43] All email information is set up
+INFO [2016-06-09 02:55:44] Email has been sent
+INFO [2016-06-09 02:55:51] All email information is set up
+INFO [2016-06-09 02:55:52] Email has been sent
+INFO [2016-06-09 03:01:51] All email information is set up
+INFO [2016-06-09 03:01:52] Email has been sent
+INFO [2016-06-09 03:06:29] All email information is set up
+INFO [2016-06-09 03:06:30] Email has been sent
+INFO [2016-06-12 02:58:20] L'utilisateur Fabien BIRBA (birba.fabien@gmail.com) s'est bien inscrit
+INFO [2016-06-12 02:58:20] All email information is set up
+INFO [2016-06-12 02:58:27] Email has been sent
+INFO [2016-06-12 02:58:47] All email information is set up
+INFO [2016-06-12 02:58:48] Email has been sent
+INFO [2016-06-12 03:09:56] All email information is set up
+INFO [2016-06-12 03:09:57] Email has been sent
+INFO [2016-06-13 19:38:06] All email information is set up
+INFO [2016-06-13 19:38:17] Email has been sent
+INFO [2016-06-13 19:55:52] All email information is set up
+INFO [2016-06-13 19:55:54] Email has been sent
+INFO [2016-06-13 23:35:43] All email information is set up
+INFO [2016-06-13 23:35:49] Email has been sent
+INFO [2016-06-13 23:37:04] All email information is set up
+INFO [2016-06-13 23:37:04] Email has been sent
+INFO [2016-06-13 23:39:03] All email information is set up
+INFO [2016-06-13 23:39:04] Email has been sent
+INFO [2016-06-14 17:01:36] All email information is set up
+INFO [2016-06-14 17:01:46] Email has been sent
+INFO [2016-06-14 17:03:41] All email information is set up
+INFO [2016-06-14 17:03:42] Email has been sent
+FATAL [2016-06-21 11:57:20] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 11:57:20] All email information is set up
+INFO [2016-06-21 11:57:27] Email has been sent
+FATAL [2016-06-21 12:00:10] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not both)
+INFO [2016-06-21 12:00:10] All email information is set up
+INFO [2016-06-21 12:00:10] Email has been sent
+INFO [2016-06-21 12:01:44] All email information is set up
+INFO [2016-06-21 12:01:46] Email has been sent
+INFO [2016-06-21 12:12:04] All email information is set up
+INFO [2016-06-21 12:12:04] Email has been sent
+FATAL [2016-06-21 12:15:02] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not both)
+INFO [2016-06-21 12:15:02] All email information is set up
+INFO [2016-06-21 12:15:03] Email has been sent
+FATAL [2016-06-21 12:37:02] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 12:37:02] All email information is set up
+INFO [2016-06-21 12:37:02] Email has been sent
+INFO [2016-06-21 12:37:50] All email information is set up
+INFO [2016-06-21 12:37:50] Email has been sent
+INFO [2016-06-21 12:41:19] All email information is set up
+INFO [2016-06-21 12:41:20] Email has been sent
+FATAL [2016-06-21 12:41:20] Mailer Error: Vous devez fournir au moins une adresse de destinataire.
+FATAL [2016-06-21 12:41:20] 
+INFO [2016-06-21 12:42:10] All email information is set up
+INFO [2016-06-21 12:42:11] Email has been sent
+FATAL [2016-06-21 12:42:11] Mailer Error: Vous devez fournir au moins une adresse de destinataire.
+FATAL [2016-06-21 12:42:11] 
+FATAL [2016-06-21 12:47:25] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 12:47:25] All email information is set up
+INFO [2016-06-21 12:47:27] Email has been sent
+INFO [2016-06-21 13:04:29] All email information is set up
+INFO [2016-06-21 13:04:37] Email has been sent
+INFO [2016-06-21 13:23:49] All email information is set up
+INFO [2016-06-21 13:23:51] Email has been sent
+FATAL [2016-06-21 13:25:28] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 13:25:28] All email information is set up
+INFO [2016-06-21 13:25:29] Email has been sent
+FATAL [2016-06-21 13:26:10] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not both)
+INFO [2016-06-21 13:26:10] All email information is set up
+INFO [2016-06-21 13:26:11] Email has been sent
+FATAL [2016-06-21 13:27:03] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 13:27:03] All email information is set up
+INFO [2016-06-21 13:27:04] Email has been sent
+FATAL [2016-06-21 13:35:30] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 13:35:30] All email information is set up
+INFO [2016-06-21 13:35:31] Email has been sent
+FATAL [2016-06-21 13:36:02] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 13:36:02] All email information is set up
+INFO [2016-06-21 13:36:03] Email has been sent
+FATAL [2016-06-21 13:41:00] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 13:41:00] All email information is set up
+INFO [2016-06-21 13:41:01] Email has been sent
+FATAL [2016-06-21 14:00:22] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not locataire)
+INFO [2016-06-21 14:00:22] All email information is set up
+INFO [2016-06-21 14:00:24] Email has been sent
+FATAL [2016-06-21 14:10:20] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 14:10:20] All email information is set up
+INFO [2016-06-21 14:10:20] Email has been sent
+FATAL [2016-06-21 14:17:03] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 14:17:03] All email information is set up
+INFO [2016-06-21 14:17:05] Email has been sent
+FATAL [2016-06-21 14:17:38] USERTYPE must be provided - Please enter a value
+INFO [2016-06-21 14:17:38] All email information is set up
+INFO [2016-06-21 14:17:38] Email has been sent
+>>>>>>> Stashed changes
