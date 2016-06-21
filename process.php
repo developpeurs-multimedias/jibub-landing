@@ -18,7 +18,11 @@ $firstname = trim(ucfirst(strtolower($_POST['firstname'])));
 $lastname = trim(strtoupper(strtolower($_POST['name'])));
 $email = trim(strtolower($_POST['email']));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 $usertype = $_POST['user-type'];
+=======
+$usertype = trim(strtolower($_POST['user-type']));
+>>>>>>> Stashed changes
 =======
 $usertype = trim(strtolower($_POST['user-type']));
 >>>>>>> Stashed changes
