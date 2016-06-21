@@ -6,10 +6,11 @@
 ///
 $(function(){
     $('#nav ul a').click(function(){
+
         var _that = this;
         $('#nav ul li a').removeClass('btn-active');
         var nav_attr = _that.classList[0];
-        $("#nav-free ul a").removeClass("btn-active");
+        $(_that).addClass("btn-active");
         $("." + nav_attr).toggleClass("btn-active");
     });
     return false;

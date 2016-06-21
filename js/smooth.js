@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+/*
     var waypoint = new Waypoint({
         element: document.getElementsByTagName('section'),
         handler: function(){
@@ -10,9 +10,11 @@ $( document ).ready(function() {
     //console.log(waypoint.element)
    // console.log(waypoint)
 
+ */
 
     $("#landing-page section").waypoint(function (direction) {
         if (direction === 'down') {
+            //console.log('down');
             //console.log($("#landing-page section").waypoint);
             $('nav #navi a').removeClass('active');
             currentSectiona = this.element.id;
@@ -25,9 +27,11 @@ $( document ).ready(function() {
         }
     }, {offset: '80px'});
 
+
+
     $("#landing-page section").waypoint(function (direction) {
         if (direction === 'up') {
-            console.log('up');
+            //console.log('up');
             $('nav #navi a').removeClass('active');
             currentSection = this.element.id;
 
@@ -37,8 +41,7 @@ $( document ).ready(function() {
             $('.' + currentSection).addClass('active');
 
         }
-    }, {offset: '-45%'});
-
+    }, {offset: '-40%'});
 
     function change($section) {
         $('nav #navi a').removeClass('active');
@@ -66,7 +69,7 @@ $( document ).ready(function() {
             element: continuousElements[i],
             handler: function () {
                 var previousWaypoint = this.previous();
-                console.log(previousWaypoint['element'].id);
+                //console.log(previousWaypoint);
             }
         })
     };

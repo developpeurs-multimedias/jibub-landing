@@ -9,9 +9,9 @@
 
 
     //MailerInformation
-    define('MAILER_FROM_NAME','Jibub');
+    define('MAILER_FROM_NAME','JIBUB');
     define('MAILER_FROM_EMAIL','hello@jibub.com');
-    define('MAILER_SUBJECT','Reception de votre e-mail');
+    define('MAILER_SUBJECT','Votre message a bien été reçu.');
     define('MAILER_BODY','email/email-contact.php');
 
 ?>

@@ -15,9 +15,9 @@
 
 
     //MailerInformation
-    define('MAILER_FROM_NAME','Jibub Community');
+    define('MAILER_FROM_NAME','JIBUB');
     define('MAILER_FROM_EMAIL','community@jibub.com');
-    define('MAILER_SUBJECT','Inscription à la newsletters de Jibub');
+    define('MAILER_SUBJECT',' JIBUB - Votre inscription a été validée.');
     define('MAILER_BODY','email/email.php');
 
 ?>

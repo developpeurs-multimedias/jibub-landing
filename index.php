@@ -19,17 +19,17 @@
 
                         <ul id="navi" class="clearfix menu ">
 
-                            <li><a href="index.php#accueil" class="accueil current ">ACCUEIL</a></li>
+                            <li><a href="#accueil" class="accueil current ">ACCUEIL</a></li>
 
-                            <li><a href="index.php#quoi" class="quoi">C'EST QUOI ?</a></li>
+                            <li><a href="#quoi" class="quoi">C'EST QUOI ?</a></li>
 
-                            <li><a href="index.php#mission" class="mission">NOTRE MISSION</a></li>
+                            <li><a href="#mission" class="mission">NOTRE MISSION</a></li>
 
-                            <li><a href="index.php#comment" class="comment">C'EST COMMENT ?</a></li>
+                            <li><a href="#comment" class="comment">C'EST COMMENT ?</a></li>
 
-                            <li><a href="index.php#newsletter" class="newsletter">NEWSLETTER</a></li>
+                            <li><a href="#newsletter" class="newsletter">NEWSLETTER</a></li>
 
-                            <li><a href="index.php#contact" class="contact">CONTACT</a></li>
+                            <li><a href="#contact" class="contact">CONTACT</a></li>
 
                         </ul>
 
@@ -70,7 +70,7 @@
 
                             <div id="store" class="clearfix">
 
-                                <p>Disponible en Septembre sur les stores.</p>
+                                <p>Disponible en septembre sur les stores.</p>
 
                                 <div id="img-store">
                                     <img src="img/network/apple.png" alt="logo app store">

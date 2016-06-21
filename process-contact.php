@@ -15,7 +15,6 @@ $firstname = trim(ucfirst(strtolower($_POST['name'])));
 $email = trim(strtolower($_POST['from']));
 $socity = trim(strtolower($_POST['societe']));
 
-
 $message = trim(strtolower($_POST['message']));
 $mail = new PHPMailer;
 
