@@ -17,7 +17,7 @@ $logger = Logger::getLogger('main');
 $firstname = trim(ucfirst(strtolower($_POST['firstname'])));
 $lastname = trim(strtoupper(strtolower($_POST['name'])));
 $email = trim(strtolower($_POST['email']));
-$usertype = trim(strtolower($_POST['user-type']));
+$usertype = $_POST['user-type'];
 
 $message = SubscribeMailChimp($email, $firstname, $lastname, $usertype, $id_list = MAILCHIMP_ID_LIST);
 $mail = new PHPMailer;
