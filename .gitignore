@@ -5,3 +5,5 @@ config-contact.php
 
 
 config.php
+
+*.log
