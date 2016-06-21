@@ -383,3 +383,8 @@ INFO [2016-06-21 13:23:04] All email information is set up
 INFO [2016-06-21 13:23:09] Email has been sent
 INFO [2016-06-21 13:24:25] All email information is set up
 INFO [2016-06-21 13:24:25] Email has been sent
+INFO [2016-06-21 14:28:26] All email information is set up
+INFO [2016-06-21 14:28:29] Email has been sent
+FATAL [2016-06-21 14:28:41] USERTYPE must be provided - Value must be one of: Loueur, Locataire, Both (not loueur)
+INFO [2016-06-21 14:28:41] All email information is set up
+INFO [2016-06-21 14:28:42] Email has been sent
