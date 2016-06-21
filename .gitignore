@@ -2,14 +2,10 @@
 .idea/workspace.xml
 
 config-contact.php
-<<<<<<< HEAD
-config.php
-=======
-
 
 config.php
 
 *.log
 
 logs/jibub-landing.log
->>>>>>> master
+
