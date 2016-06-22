@@ -1,4 +1,4 @@
-<?php//ignores
+<?php
 
     //MailChimp API Key
     define('MAILCHIMP_API_KEY','60b7510ab43f887e96abb939b12a0643-us13');
@@ -21,5 +21,3 @@
     define('MAILER_BODY','email/email.php');
 
 ?>
-
-
