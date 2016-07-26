@@ -15,7 +15,15 @@ $firstname = trim(ucfirst(strtolower($_POST['name'])));
 $email = trim(strtolower($_POST['from']));
 $socity = trim(strtolower($_POST['societe']));
 
+<<<<<<< HEAD
 $message = nl2br($_POST['message']);
+=======
+<<<<<<< Updated upstream
+$message = (nl2br($_POST['message']));
+=======
+$message = trim(strtolower($_POST['message']));
+>>>>>>> Stashed changes
+>>>>>>> fabien
 $mail = new PHPMailer;
 
 $mail->SMTPDebug = 3;                               // Enable verbose debug output

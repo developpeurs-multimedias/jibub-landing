@@ -16,7 +16,7 @@ function SubscribeMailChimp($email, $firstname, $lastname, $usertype, $id_list){
 
     try {
         $mailchimpLists->subscribe( $id_list, array( 'email' => $email), $merge_vars, "html",false); //pass the list id and email to mailchimp
-        $logger->info("L'utilisateur $firstname $lastname ($email) s'est bien inscrit");
+        $logger->info("L'utilisateur $firstname $lastname $usertype ($email) s'est bien inscrit");
     } catch (Exception $e) {
         $message = $e->getMessage();
         $logger->fatal($message, $e);

@@ -3,9 +3,13 @@
 
 config-contact.php
 
-
 config.php
 
 *.log
+
+logs/jibub-landing.log
+
+
+logs/jibub-landing.log
 
 logs/jibub-landing.log
