@@ -402,6 +402,7 @@ section:before{
 
 #accueil {
 	height: 100vh;
+	min-height:710px;
 
 }
 #accueil p{
@@ -849,6 +850,7 @@ section:before{
     margin-bottom: 5px;
     vertical-align: middle;
     width: 100%;
+	text-align: start;
 }
 
 #newsletter form fieldset label{
@@ -866,13 +868,15 @@ section:before{
 	height:100%;
 	width:80%;
 	min-width: 260px;
+	max-width: 515px;
 
 }
 
 #newsletter form input{
 	margin-bottom: 15px;
-    float: left;
-
+}
+#newsletter form input,#newsletter  form button,#newsletter  form button{
+	width: 67%;
 }
 
 
@@ -892,6 +896,8 @@ section:before{
     float: left;
     line-height: 26px;
     vertical-align: middle;
+	display: inline-block!important;
+	min-width:initial;
 }
 
 
@@ -977,6 +983,7 @@ section:before{
 	float: left;
 	display: inline-block;
 	margin-right: 32px;
+	min-width:320px;
 }
 
 ::-webkit-input-placeholder {
@@ -1006,7 +1013,6 @@ section:before{
 }
 #contact form fieldset:nth-child(2){
     min-width:40%;
-    margin-left: 3%;
     width: initial;
 
 }
@@ -1533,8 +1539,7 @@ section:before{
 	}
 
 
-=======
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -2399,7 +2404,7 @@ section:before{
 
 #newsletter form{
 	height:100%;
-	width:80%;
+	width:97%;
 	min-width: 260px;
 
 }
@@ -3047,16 +3052,18 @@ section:before{
         float: initial;
     }
     #newsletter form fieldset label{
-        float: initial;
+        float: left;
         margin-right: 5px;
 
     }
 
     #newsletter form input[type=radio]{
         margin-right: 2px;
-        height: 24px;
-        float: initial;
-        text-align: center;
+		height: 24px;
+		float: left!important;
+		text-align: center;
+		display: inline!important;
+		min-width: initial;
     }
 
 	#newsletter > p:first-child{
@@ -3067,6 +3074,4 @@ section:before{
 		margin-top: 20px;
 	}
 
-
->>>>>>> Stashed changes
 }
